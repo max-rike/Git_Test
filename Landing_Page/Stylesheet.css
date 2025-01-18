@@ -1,0 +1,17 @@
+header, footer{
+    background-color: #2E4F4F;
+    padding: 1%;
+    margin: 0px;
+    display: flex;
+}
+.topdiv{
+    background-color: #2E4F4F;
+}
+.a{
+    display: inline;
+    
+ }
+.bottomp{
+    text-align: center;
+    color: white;
+}

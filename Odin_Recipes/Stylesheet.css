@@ -7,3 +7,8 @@ body{
 h1{
     text-align: center;
 }
+* {
+    outline: 2px solid #cde2e2;
+    padding: 15px;
+    margin: 20px;
+  }
