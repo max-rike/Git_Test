@@ -1,17 +1,39 @@
-header, footer{
-    background-color: #2E4F4F;
-    padding: 1%;
-    margin: 0px;
-    display: flex;
+*{
+    display: grid;
 }
+header{
+    position: sticky;
+    top: 0;
+    background-color: #2E4F4F;
+ }
+footer{
+    bottom: 0;
+        position: sticky;
+        background-color: #2E4F4F;    
+ }
+
 .topdiv{
     background-color: #2E4F4F;
 }
+
+
+h1{
+    margin-right: 55%;
+}
+
+
 .a{
-    display: inline;
-    
+    display: inline-flex;
+    align-self: center;
  }
+
 .bottomp{
     text-align: center;
     color: white;
+}
+
+.middiv{
+    display: inline-flex;
+    border: red 1px solid;
+    
 }
